@@ -23,11 +23,13 @@ header .nav-wrap {
 
   /* styling */
   background-color: #000;
-  opacity: 70%;
 }
 
 header .nav-wrap .logo {
-  /* background-color: aqua; */
+  margin-left: 20px;
+}
+nav a{
+  margin-right: 30px;
 }
 
 header .nav-wrap .logo img {
