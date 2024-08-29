@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Sevillana&display=swap');
 
 * {
   margin: 0;
@@ -6,6 +7,7 @@
   font-family: 'Josefin Sans', sans-serif;
   box-sizing: border-box;
 }
+
 
 /*  ============= header ============= */
 header {
@@ -51,8 +53,7 @@ header .nav-wrap nav a {
 }
 
 header nav a:hover {
-  background-color: #8b6c32;
-  /* border-radius: 5px; */
+  color: #8b6c32;
 }
 
 header .top-nav {
@@ -83,11 +84,15 @@ header .top-nav {
   text-transform: uppercase;
   font-size: 3em;
   margin-bottom: 2em;
+  font-family: "Sevillana", cursive;
+  letter-spacing: 5px;
 }
 
 .banner .sub-title {
-  font-size: 1.3em;
+  word-spacing: 2px;
+  font-size: 2em;
   margin-bottom: 2em;
+  font-family: "Sacramento", cursive;
 }
 
 .btn-hero {
@@ -99,8 +104,9 @@ header .top-nav {
   margin-top: 1em;
   display: block;
   margin-inline: auto;
-  border: 3px solid white;
+  border: 1px solid white;
   text-align: center;
+  border-radius: 15px;
 }
 
 .btn-hero:hover {
